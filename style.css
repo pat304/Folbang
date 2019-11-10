@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background: #fc5b42;
+    background: linear-gradient(-45deg,#25d9cd,#8825d9,#cccc31,#ccc783);
+    background-size:3000% 3000%;
+    animation: pol 15s ease infinite;
+}
+@-webkit-keyframes pol{
+    0%{
+        background-position: 0% 50%
+    }    
+    50%{
+        background-position: 100% 50%
+    }
+    100%{
+        background-position: 0% 50%
+    }
+}
+.fil {
+opacity: .8;
+    width: 350px;  
+margin: 15px 40.5%;
+
+
+border: 5px solid none;
+border-radius: 40px 40px 40px 40px;
+
+
+    background: #fc5b42;
+    background: linear-gradient(-45deg,#25d9cd,#8825d9,#cccc31,#ccc783);
+    background-size:3000% 3000%;
+    animation: pol 15s ease infinite;
+  
+-webkit-box-shadow: 0px 0px 58px -17px rgba(214,214,214,1);
+-moz-box-shadow: 0px 0px 58px -17px rgba(214,214,214,1);
+box-shadow: 0px 0px 58px -17px rgba(214,214,214,1);
+
+
+}
+.fi h2 {
+
+text-align: center;
+    color: white;
+  font-size: 45px;
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.pil {
+    display: grid;
+    grid-auto-rows: 10%;
+    grid-gap: 345px;
+}
+.pit {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height:50px;
+    background-color:none;
+}
+.pol {
+        grid-row-start: 2;
+    grid-row-end: 2;
+    height:50px;
+    background-color:none;
+}
+.let {
+    border: 5px solid white;
+    width: 348px;
+    margin: 12% 40%;
+    background-color: white;
+border: 5px inset none;
+border-radius: 50px 50px 50px 50px;
+        background: none;
+ 
+
+}
+.let a{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    background: #f0ffe8;
+    background: linear-gradient(-45deg,black,#f0ffe8,black,#f0ffe8);
+    background-size:1500% 1500%;
+    animation: pol 15s ease infinite;
+    opacity: .8;
+    margin: 0 .92%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    font-size: 36px;
+}
+.let a:hover{
+    color: chartreuse;
+}
+.fil img{
+        margin: 15px 25px;
+border: 5px solid salmon;
+    height: 250px;
+    width: 290px;
+    border-radius: 65%;
+    
+}
+.fil img,h2,p{
+    text-align: center;
+}
+.fil h2{
+   font-family: 'Oswald', sans-serif;
+    color: lightcoral;
+}
+.fil p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 56px;
+  
+    color: white;
+
+}
+hr.t1{
+    
+   margin: 0 25%;
+    border: 3px solid white;
+}
+hr.t{
+margin: 20px 0;
+    border: 5px solid white;
+}
+
+
